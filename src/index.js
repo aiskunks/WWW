@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import "./styles/styleguide.css";
 import "./styles/index.css";
 import "./styles/foundation.css";
-import "./styles/styleguide.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
