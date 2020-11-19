@@ -1,11 +1,13 @@
 import React from "react";
+
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { Landing, People } from "./sections";
+import { AppFooter, AppHeader, Landing, People } from "./sections";
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <AppHeader />
         <Switch>
           <Route path="/people">
             <People />
@@ -14,6 +16,7 @@ function App() {
             <Landing />
           </Route>
         </Switch>
+        <AppFooter />
       </Router>
     </div>
   );
