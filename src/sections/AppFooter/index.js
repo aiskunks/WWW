@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export const LandingFooter = () => {
+export const AppFooter = () => {
   return (
     <>
       <footer className="footer">
@@ -82,6 +82,7 @@ export const LandingFooter = () => {
           </div>
         </div>
       </div>
+      <div id="overlay" className="js-overlay"></div>
     </>
   );
 };
