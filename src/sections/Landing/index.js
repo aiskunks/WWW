@@ -234,8 +234,9 @@ export const Landing = () => {
             </div>
           </div>
         </div>
-        <LandingCarousel />
-        <div></div>
+        <div className="page-section page-section--slider">
+          <LandingCarousel />
+        </div>
         <div className="page-section page-section--subscribe">
           <div className="row expanded">
             <div className="column large-7">

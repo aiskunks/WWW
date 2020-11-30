@@ -1294,27 +1294,30 @@ form--negative input[type=submit]:hover,.form--negative input[type=submit]:hover
 
 .slider .slick-arrow:before,.slider .slick-arrow:after {
   color: rgba(255,255,255,.2);
+  background-color: unset;
   font-size: 60px
 }
 
 .slider .slick-arrow:hover:before,.slider .slick-arrow:hover:after {
-  color: rgba(255,255,255,.6)
+  color: rgba(255,255,255,.7)
 }
 
 .slider .slick-prev {
-  left: 0
+  left: 0;
+  width: 60px;
 }
 
 .slider .slick-prev:before {
-  content: 'keyboard_arrow_left'
+  /* content: 'keyboard_arrow_left' */
 }
 
 .slider .slick-next {
-  right: 0
+  right: 0;
+  width: 60px;
 }
 
 .slider .slick-next:after {
-  content: 'keyboard_arrow_right'
+  /* content: 'keyboard_arrow_right' */
 }
 
 .sticky {
